@@ -8,81 +8,86 @@ body{
 .self{
    width: 50%; 
 }
-.de{
-    width: 100px;
-    height:100px;
+a{
+    text-decoration: none;
+    color: black;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color:gray;
+}
+a:active{
+    color: black;
+}
+#de{
+    width: 250px;
+    height:250px;
     border: 5px solid white;
     margin: auto;
     text-align: center;
     box-shadow: 10px 5px 5px gainsboro;
     background-color: white;
     border-radius: 30px;
-    line-height: 30px;
-    transform: scale(1);
-    position: relative;
-    transition: all 1s ease-in;
+    line-height: 210px;
+    filter: grayscale(0);
+    transition: filter 1s ease-in;
 }
-.gd{
-    width: 100px;
-    height:100px;
+#de:hover{
+    filter: grayscale(2);
+    transition: filter 1s ease-in;
+}
+#gd{
+    width: 250px;
+    height:250px;
     border: 5px solid white;
     margin: auto;
     text-align: center;
     box-shadow: 10px 5px 5px gainsboro;
     background-color: white;
     border-radius: 30px;
-    line-height: 30px;
+    line-height: 210px;
     transform: scale(1);
     position: relative;
     transition: all 1s ease-in;
 }
-.gm{
-    width: 100px;
-    height:100px;
+#gm{
+    width: 250px;
+    height:250px;
+    border: 5px solid white;
+    margin: auto;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    line-height: 210px;
+    transform: scale(1);
+    position: relative;
+    transition: all 1s ease-in;
+}
+#rap{
+    width: 250px;
+    height:250px;
     border: 5px solid white;
     margin: auto;
     text-align: center;
     box-shadow: 10px 5px 5px gainsboro;
     background-color: white;
     border-radius: 30px;
-    line-height: 30px;
+    line-height: 210px;
     transform: scale(1);
     position: relative;
     transition: all 1s ease-in;
 }
-.rap{
-    width: 100px;
-    height:100px;
-    border: 5px solid white;
-    margin: auto;
-    text-align: center;
-    box-shadow: 10px 5px 5px gainsboro;
-    background-color: white;
-    border-radius: 30px;
-    line-height: 30px;
-    transform: scale(1);
-    position: relative;
-    transition: all 1s ease-in;
-}
-.yt{
+#yt{
     width: 500px;
     height:500px;
     border: 5px solid white;
-    margin: 20px;
-    text-align: center;
+    grid-area: 1/2;
+    margin:50px;
     box-shadow: 10px 5px 5px gainsboro;
     background-color: white;
     border-radius: 30px;
-    transform: scale(1);
-    position: relative;
-    transition: all 1s ease-in;
-}
-.yt:hover{
-    transform: scale(1);
-    position: relative;
-    transition: all 1s ease-in;
-}
-.de:hover{
     transform: scale(1);
     position: relative;
     transition: all 1s ease-in;
@@ -90,74 +95,26 @@ body{
 .intro1{
     display: grid;
     gap: 20px;
-    grid-template-columns: 320px 320px;
-    grid-template-rows: 320px 320px;
+    grid-template-columns: 255px 255px;
+    grid-template-rows: 255px 255px;
+    margin: 50px;
+    justify-content: right;
 }
 #header{
     display: grid;
-    gap: 20px;
     grid-template-columns: 640px 640px 640px;
     grid-template-rows: 500px 100px 100px;
+    justify-content: center;
+    align-content: center;
 }
 
-#intro{
+#skill{
     width: 500px;
-    height:350px;
+    height:500px;
     border: 5px solid white;
-    padding: 150px 150px 150px 150px;
-    margin: auto;
+    margin: 50px;
     text-align: center;
-    box-shadow: 10px 5px 5px gainsboro;
-    background-color: white;
-    border-radius: 30px;
-}
-.cbdk{
-    width: 50%;
-}
-.c{
-    width: 500px;
-    height:600px;
-    border: 5px solid white;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px 20px 20px 20px;
-    text-align: center;
-    box-shadow: 10px 5px 5px gainsboro;
-    background-color: white;
-    border-radius: 30px;
-    transform: scale(1);
-    position: relative;
-    transition: all 1s ease-in
-}
-.utpa{
-    width: 50%;
-}
-.u{
-    width: 500px;
-    height:600px;
-    border: 5px solid white;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px 20px 20px 20px;
-    text-align: center;
-    box-shadow: 10px 5px 5px gainsboro;
-    background-color: white;
-    border-radius: 30px;
-    transform: scale(1);
-    position: relative;
-    transition: all 1s ease-in
-}
-.we{
-    width: 20%
-}
-.w{
-    width: 500px;
-    height:600px;
-    border: 5px solid white;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px 20px 20px 20px;
-    text-align: center;
+    line-height:80px;
     box-shadow: 10px 5px 5px gainsboro;
     background-color: white;
     border-radius: 30px;
@@ -165,9 +122,82 @@ body{
     position: relative;
     transition: all 1s ease-in;
 }
+.cbdk{
+    width: 50%;
+}
+.c{
+    width: 500px;
+    height:500px;
+    border: 5px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    transform: scale(0.9);
+    position: relative;
+    transition: all 1s ease-in;
+}
+.c:hover{
+    transform: scale(1);
+    z-index: 10;
+    transition: all 1s ease-in;
+}
+.utpa{
+    width: 50%;
+}
+.u{
+    width: 500px;
+    height:500px;
+    border: 5px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    transform: scale(0.9);
+    position: relative;
+    transition: all 1s ease-in
+}
+.u:hover{
+    transform: scale(1.0);
+    z-index: 10;
+    transition: all 1s ease-in;
+}
+.we{
+    width: 20%
+}
+.w{
+    width: 500px;
+    height:500px;
+    border: 5px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    transform: scale(0.9);
+    position: relative;
+    transition: all 1s ease-in;
+}
+.w:hover{
+    transform: scale(1);
+    z-index: 10;
+    transition: all 1s ease-in;
+}
 #thing{
     display: grid;
     grid-template-columns: 640px 640px 640px;
     grid-template-rows: 600px 600px 600px ;
     gap: 10px;
+    margin-top: 20px;
 }
