@@ -211,7 +211,7 @@ a:active{
     transition: all 1s ease-in;
 }
 .c:hover{
-    transform: scale(1);
+    transform: scale(0.8);
     z-index: 10;
     transition: all 1s ease-in;
 }
@@ -235,7 +235,7 @@ a:active{
     transition: all 1s ease-in
 }
 .u:hover{
-    transform: scale(1.0);
+    transform: scale(0.8);
     z-index: 10;
     transition: all 1s ease-in;
 }
@@ -259,7 +259,7 @@ a:active{
     transition: all 1s ease-in;
 }
 .w:hover{
-    transform: scale(1);
+    transform: scale(0.8);
     z-index: 10;
     transition: all 1s ease-in;
 }
