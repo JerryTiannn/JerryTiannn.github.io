@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Hind+Madurai:wght@300;400;500;600&family=Koulen&display=swap');
+#mp{ 
+    font-family:'Hind Madurai', sans-serif;
+    line-height: 50px;
+    text-align:center;
+    background-image: url("mainpage/photos/background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    }
+.self{
+   width: 50%; 
+}
+h1{
+    font-family: 'Koulen', cursive;
+    font-size: 100px;
+}
+#upid{
+    font-family: 'Koulen', cursive;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color:black;
+}
+a:active{
+    color: black;
+}
+#de{
+    width: 250px;
+    height:250px;
+    border: 5px solid white;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    line-height: 210px;
+    transform: scale(1);
+    position: relative;
+    transition: all 1s ease-in;
+}
+#de:hover{
+    transform: scale(1.1);
+    background-color: lightpink;
+    position: relative;
+    transition: all 1s ease-in;
+}
+#gd{
+    width: 250px;
+    height:250px;
+    border: 5px solid white;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    line-height: 210px;
+    transform: scale(1);
+    position: relative;
+    transition: all 1s ease-in;
+}
+#gd:hover{
+    transform: scale(1.1);
+    background-color: lightgoldenrodyellow;
+    position: relative;
+    transition: all 1s ease-in;
+}
+#gm{
+    width: 250px;
+    height:250px;
+    border: 5px solid white;
+    margin: auto;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    line-height: 210px;
+    transform: scale(1);
+    position: relative;
+    transition: all 1s ease-in;
+}
+#gm:hover{
+    transform: scale(1.1);
+    background-color: lightskyblue;
+    position: relative;
+    transition: all 1s ease-in;
+}
+#rap{
+    width: 250px;
+    height:250px;
+    border: 5px solid white;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    line-height: 210px;
+    transform: scale(1);
+    position: relative;
+    transition: all 1s ease-in;
+}
+#rap:hover{
+    transform: scale(1.1);
+    background-color: lightcoral;
+    position: relative;
+    transition: all 1s ease-in;
+}
+#yt{
+    width: 500px;
+    height:500px;
+    border: 5px solid white;
+    grid-area: 1/2;
+    margin:60px ; 
+    line-height: 730px;   
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+}
+#yt:hover{
+    transform: scale(1.1);
+    background-color: lightslategray;
+    position: relative;
+    transition: all 1s ease-in;
+}
+.intro1{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 255px 255px;
+    grid-template-rows: 255px 255px;
+    margin: 50px;
+    justify-content: right;
+}
+#header{
+    display: grid;
+    grid-template-columns: 640px 640px 640px;
+    grid-template-rows: 500px 100px 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+#skill{
+    width: 500px;
+    height:500px;
+    border: 5px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 60px;
+    text-align: justify;
+    line-height:60px;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    transform: scale(1);
+    position: relative;
+    transition: all 1s ease-in;
+}
+#skill:hover{
+    filter: grayscale(1);
+    transition: filter 1s ease-in;
+}
+.cbdk{
+    width: 50%;
+}
+.c{
+    width: 500px;
+    height:500px;
+    border: 5px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    transform: scale(0.9);
+    position: relative;
+    transition: all 1s ease-in;
+}
+.c:hover{
+    transform: scale(1);
+    z-index: 10;
+    transition: all 1s ease-in;
+}
+.utpa{
+    width: 50%;
+}
+.u{
+    width: 500px;
+    height:500px;
+    border: 5px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    transform: scale(0.9);
+    position: relative;
+    transition: all 1s ease-in
+}
+.u:hover{
+    transform: scale(1.0);
+    z-index: 10;
+    transition: all 1s ease-in;
+}
+.we{
+    width: 20%
+}
+.w{
+    width: 500px;
+    height:500px;
+    border: 5px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: white;
+    border-radius: 30px;
+    transform: scale(0.9);
+    position: relative;
+    transition: all 1s ease-in;
+}
+.w:hover{
+    transform: scale(1);
+    z-index: 10;
+    transition: all 1s ease-in;
+}
+#thing{
+    display: grid;
+    grid-template-columns: 640px 640px 640px;
+    grid-template-rows: 600px 600px 600px ;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/*cyberduck page*/
+
+#cb{
+    font-family: 'Electrolize', sans-serif;
+    height: 1000px;
+    max-width: 1900px;
+    background-image: url("mainpage/photos/background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-content: flex-start;
+    grid-template-columns: repeat(5, 380px);
+    grid-template-rows: repeat(5, 380px);
+    
+}
+#cbdkfont{
+    font-family: 'Electrolize', sans-serif;
+    font-size: 70px;
+}
+#c1{
+    width: 1700px;
+    height: 100px;
+    font-style: bold;
+    margin-top: 100px;
+    margin-left:100px;
+    text-align: center;
+    grid-area: 1 / 1 / 2 / 6;
+}
+#cbdk1{
+    margin-left: 800px;
+    text-align: center;
+    line-height:200px;
+    grid-area: 1 / 1 / 5 / 4;
+}
+#about{
+    width: 500px;
+    height:200px;
+    line-height: 30px;
+    border: 5px solid lightsalmon;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: lightsalmon;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    grid-area: 1/1;
+}
+#c2{
+    display: grid;
+    grid-template-columns: repeat(2,380px);
+    grid-template-rows: repeat(2,380px);
+}
+#about2{
+    width: 500px;
+    height:200px;
+    line-height: 25px;
+    border: 5px solid lightsalmon;
+    box-shadow: 10px 5px 5px gainsboro;
+    background-color: lightsalmon;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    grid-area: 1/4;
+}
+li{
+   list-style: url("mainpage/photos/star.png");
+}
+#back1{
+    width: 200px;
+    height: 50px;
+    background-color: lightsalmon;
+    line-height: 50px;
+    padding:15px 15px;
+    grid-area: 2 / 1 / 3/ 3;
+    margin-left: 825px;
+    margin-top: 100px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#back1:hover{
+        transform: scale(1.2);
+        z-index: 10;
+        transition: all 1s ease-in;
+}
+/*utopia*/
+#up{
+    height: 1200px;
+    background-image: url("mainpage/photos/background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-content: flex-start;
+    grid-template-columns: repeat(5, 380px);
+    grid-template-rows: repeat(5, 380px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+#upintro{
+    width: 700px;
+    height: 100px;
+    margin-left: 225px;
+    margin-top: 150px;
+    grid-area: 1/2/1/5;
+    text-align: center;
+}
+.hezhao{
+    width: 100%;
+    border:5px solid rgb(104, 235, 191);
+}
+.youxi{
+    width: 100%;
+    border:5px solid rgb(104, 235, 191);
+}
+.tubiao{
+    width: 100%;
+}
+#upia{
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: 380px 380px 380px;
+    gap: 20px;
+    grid-area: 2/2/4/5;
+}
+#showcase{
+    line-height: 60px;
+    text-align: center;
+    grid-area: 1/1/3/2;
+    background-color: white;
+    padding-top: 50px;
+    box-shadow: 10px 5px 5px gainsboro;
+    filter: grayscale(1);
+    transition: filter 1s ease-in;
+}
+#showcase:hover{
+    box-shadow: 20px 10px 10px gainsboro;
+    filter: grayscale(0);
+    transition: filter 1s ease-in;
+}
+#aboutu{
+    box-shadow: 20px 10px 10px gainsboro;
+    filter: grayscale(1);
+    transition: filter 1s ease-in;
+}
+#aboutu:hover{
+    filter: grayscale(0);
+    transition: filter 1s ease-in;
+}
+#upintro2{
+    background-color: bisque;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    grid-area: 2/2;
+    box-shadow: 10px 5px 5px gainsboro;
+    filter: grayscale(1);
+    transition: filter 1s ease-in;
+}
+#upintro2:hover{
+    box-shadow: 20px 10px 10px gainsboro;
+    filter: grayscale(0);
+    transition: filter 1s ease-in;
+}
+#material{
+    background-color: bisque;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    grid-area: 1/3;
+    box-shadow: 10px 5px 5px gainsboro;
+    filter: grayscale(1);
+    transition: filter 1s ease-in;
+}
+#material:hover{
+    box-shadow: 20px 10px 10px gainsboro;
+    filter: grayscale(0);
+    transition: filter 1s ease-in;
+}
+#backhome{
+    background-color: lightpink;
+    text-align: center;
+    font-size: 40px;
+    line-height: 150px;
+    box-shadow: 10px 5px 5px gainsboro;
+    filter: grayscale(1);
+    transition: filter 1s ease-in;
+}
+#backhome:hover{
+    box-shadow: 20px 10px 10px gainsboro;
+    filter: grayscale(0);
+    transition: filter 1s ease-in;
+}
+
+/*wedo*/
+#wdbody{
+    text-align: center;
+    background-image: url("mainpage/photos/background.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#todo{
+    display: grid;
+    align-content: flex-start;
+    gap: 20px;
+    grid-template-columns: repeat(5, 380px);
+    grid-template-rows: repeat(5, 380px);
+}
+#abtwd{
+    text-align: center;
+    line-height: 40px;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px gainsboro;
+    grid-area: 1/2;
+}
+#abtwd:hover{
+        transform: scale(1.3);
+        position: relative;
+        transition: all 1s ease-in;
+}
+#social{
+    text-align: center;
+    line-height: 40px;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px gainsboro;
+    grid-area: 1/4;
+}
+#social:hover{
+        transform: scale(1.3);
+        position: relative;
+        transition: all 1s ease-in;
+}
+#goal{
+    text-align: center;
+    line-height: 40px;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px gainsboro;
+    grid-area: 1/3;
+}
+#goal:hover{
+    transform: scale(1.3);
+        position: relative;
+        transition: all 1s ease-in;
+}
+#logpage{
+    width: 100%;
+}
+#calendar{
+    width: 90%;
+}
+#media{
+    width: 80%;
+}
+#we1{
+    width: 380px;
+    height: 380px;
+    text-align: center;
+    line-height: 95px;
+    margin: 0px;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px gainsboro;
+    grid-area: 2 / 2 / 3 / 3;
+}
+#we1:hover{
+    transform: scale(1.3);
+    position: relative;
+    transition: all 1s ease-in;
+}
+#we2{
+    width: 380px;
+    height: 380px;
+    text-align: center;
+    margin: 0px;
+    line-height: px;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px gainsboro;
+    grid-area:  2 / 3 / 3 / 4;
+}
+#we2:hover{
+    transform: scale(1.3);
+        position: relative;
+        transition: all 1s ease-in;
+}
+#we3{
+    width: 380px;
+    height: 380px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0px;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px gainsboro;
+    grid-area: 2 / 4 / 3 / 5;
+}
+#we3:hover{
+    transform: scale(1.3);
+        position: relative;
+        transition: all 1s ease-in;
+}
+#target{
+    text-align: center;
+    line-height: 60px;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px gainsboro;
+    grid-area: 3 / 2 / 4 / 3; 
+}
+#target:hover{
+    transform: scale(1.3);
+        position: relative;
+        transition: all 1s ease-in;
+}
+#ques{
+    text-align: center;
+    line-height: 40px;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px gainsboro;
+    grid-area: 3 / 3 / 4 / 4;
+}
+#ques:hover{
+    transform: scale(1.3);
+        position: relative;
+        transition: all 1s ease-in;
+}
+#where{
+    text-align: center;
+    line-height:100px;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px gainsboro;
+    grid-area: 3 / 4 / 4 / 5;
+    font-size: 40px;
+    opacity: 0.5;
+}
+#where:hover{
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+.che{
+    margin-top: 100px;
+}
