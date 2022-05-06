@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Hind+Madurai:wght@300;400;500;600&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Electrolize&family=Fredoka+One&family=Hind+Madurai:wght@300;400;500;600&family=Koulen&display=swap');
 #mp{ 
+    height: 960px;
     font-family:'Hind Madurai', sans-serif;
     line-height: 50px;
     text-align:center;
@@ -7,6 +8,9 @@
     background-attachment: fixed;
     background-size: cover;
     }
+#diyi{
+    height: 800px;
+}
 .self{
    width: 50%; 
 }
@@ -17,6 +21,32 @@ h1{
 #upid{
     font-family: 'Koulen', cursive;
     font-size: 50px;
+}
+ul {
+    list-style: none;
+  }
+  
+li > span {
+    display: inline-block;
+    width: 100px;
+}
+.AdobeXD::after {
+    content: "🔹🔹🔹🔹";
+}
+  
+.AdobePS::after {
+    content: "🔹🔹🔹";
+}
+
+.Unity::after {
+    content: "🔹🔹";
+}
+  
+.AdobePR::after {
+    content: "🔹";
+}
+.free{
+    text-decoration: underline;
 }
 a{
     text-decoration: none;
@@ -154,14 +184,13 @@ a:active{
     line-height:60px;
     box-shadow: 10px 5px 5px gainsboro;
     background-color: white;
-    border-radius: 30px;
-    transform: scale(1);
-    position: relative;
-    transition: all 1s ease-in;
+    border-radius: 30px;   
 }
 #skill:hover{
-    filter: grayscale(1);
-    transition: filter 1s ease-in;
+    transform: scale(1.1);
+    background-color: lightcyan;
+    position: relative;
+    transition: all 1s ease-in;
 }
 .cbdk{
     width: 50%;
@@ -333,6 +362,7 @@ li{
 }
 /*utopia*/
 #up{
+    font-family: 'Bangers', cursive;
     height: 1200px;
     background-image: url("mainpage/photos/background.png");
     background-attachment: fixed;
@@ -343,6 +373,9 @@ li{
     grid-template-rows: repeat(5, 380px);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+}
+#upid{
+    font-family: 'Bangers', cursive;
 }
 #upintro{
     width: 700px;
@@ -441,6 +474,8 @@ li{
 
 /*wedo*/
 #wdbody{
+    font-family: 'Fredoka One', cursive;
+    font-size: 14px;
     text-align: center;
     background-image: url("mainpage/photos/background.png");
     background-attachment: fixed;
@@ -582,4 +617,7 @@ li{
 }
 .che{
     margin-top: 100px;
+}
+#wee{
+    font-family: 'Fredoka One', cursive;
 }
