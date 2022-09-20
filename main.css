@@ -38,7 +38,7 @@ li > span {
 }
 
 .Unity::after {
-    content: "🔹🔹";
+    content: "🔹🔹🔹";
 }
   
 .AdobePR::after {
